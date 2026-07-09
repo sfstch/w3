@@ -76,7 +76,7 @@ main {
   background-color: #f8f8f8;
   overflow: hidden;
 }
-  .photos:hover { 
+  .hover-photos:hover { 
   position: absolute;
   inset: 0;
   display: flex;
@@ -106,10 +106,10 @@ footer {
   height: 40px;
 }
 
-.footerleftpart {
+.footer-left-part {
   padding-left: 10px;
 }
 
-.footerrightpart {
+.footer-right-part {
   padding-right: 10px;
 }
