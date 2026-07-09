@@ -21,13 +21,13 @@ header {
   justify-content: space-between;
   height: 80px;
   width: 100%;
+  padding: 0 15px;
 }
 
 .logo {
   width: 120px;
   height: auto;
   display: flex;
-  margin-left: 15px;
 }
 
 .header-center {
@@ -39,11 +39,9 @@ header {
   font-size: 15px;
   font-weight: 700;
   color: #313233;
-  margin: 0;
 }
 
 .header-center p {
-  margin: 0;
   font-size: 12px;
   font-weight: 400;
   color: #313233;
@@ -52,7 +50,6 @@ header {
 .headericons {
   display: flex;
   gap: 10px;
-  margin-right: 15px;
 }
 
 .headericons img {
@@ -72,12 +69,21 @@ main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   max-width: fit-content;
-  border: 1px solid #cecfd0;
   gap: 30px;
   padding: 30px;
   text-align: center;
+  border: 1px solid #cecfd0;
   background-color: #f8f8f8;
   overflow: hidden;
+}
+  .photos:hover { 
+  position: absolute;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(3);
+  background: #00000073;
 }
 
 .photos img {
